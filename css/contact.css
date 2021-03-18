@@ -178,7 +178,7 @@ section .con-container .contactform .formBox .inputBox span{
 }
 
 section .con-container .contactform .formBox .inputBox input:focus ~ span,
-section .con-container .contactform .formBox .inputBox textarea:focus ~ span
+section .con-container .contactform .formBox .inputBox textarea:focus ~ span,
 section .con-container .contactform .formBox .inputBox input:valid ~ span,
 section .con-container .contactform .formBox .inputBox textarea:valid ~ span
 {
@@ -198,3 +198,45 @@ section .con-container .contactform .formBox .inputBox input[type="submit"]{
    padding: 12px;
 }
 
+section .con-container .contactform .formBox .inputBox input[type="submit"]:hover{
+    background: #ff568c;
+}
+
+@media(max-width:1200px)
+{
+    .con-container{
+        width: 90%;
+        min-width: auto;
+        margin: 20px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2) ;
+    }
+
+    .con-container .contactinfo{
+        top: 0;
+        height: 550px;
+        position: relative;
+        box-shadow: none;
+    }
+
+    .con-container .contactform{
+        position: relative;
+        width: calc(100% - 350px);
+        padding-left: 0;
+        margin-left: 0;
+        padding: 40px;
+        height: 550px;
+        box-shadow: none;
+    }
+}
+
+@media(max-width:991px)
+{
+    section.dd{
+         background: fff38e;
+    }
+
+    section.dd::before{
+        display: none;
+    }
+
+    
