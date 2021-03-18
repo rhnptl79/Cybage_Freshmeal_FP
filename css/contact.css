@@ -121,3 +121,43 @@ section .con-container .contactform{
     height: 100%;
     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
 }
+
+section .con-container .contactform h2{
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+section .con-container .contactform .formBox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+section .con-container .contactform .formBox .inputBox{
+    position: relative;
+    margin:  0 0 35px 0;
+}
+
+section .con-container .contactform .formBox .inputBox.w50{
+    width: 47%;
+}
+
+section .con-container .contactform .formBox .inputBox.w100{
+    width: 100%;
+}
+
+section .con-container .contactform .formBox .inputBox input,
+section .con-container .contactform .formBox .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    resize: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
