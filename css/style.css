@@ -719,3 +719,81 @@ section.subscribe p{
     margin-bottom: 1.5rem;
     line-height: 1.5;
 }
+
+section.subscribe .input-wrap{
+    background: var(--heaven);
+    display: flex;
+    padding: 0.3rem;
+    border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+section.subscribe .input-wrap input{
+    width: 100%;
+    border: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+section.subscribe .input-wrap input:focus{
+    outline: none;
+}
+
+section.subscribe .input-wrap button{
+    padding: 0.8rem 2rem;
+    border: none;
+    background: var(--primary);
+    color: var(--pure);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    outline: none;
+}
+
+section.subscribe .input-wrap button:hover{
+    background: var(--secondary);
+}
+
+section.contact-us{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+section.contact-us .contact-info-wrapper{
+    padding: 4rem 0;
+    flex: 1;
+}
+
+section.contact-us .map{
+    flex: 1;
+    filter: grayscale(100%);
+}
+
+section.contact-us .contact-info{
+    display: flex;
+    justify-content: center;
+}
+
+section.contact-us .contact-info > div > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+section.contact-us .contact-info > div > div img{
+    margin-right: 1rem;
+}
