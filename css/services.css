@@ -44,3 +44,34 @@
     border-radius: 4px;
 }
 
+.ser-container .ser-card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.ser-container .ser-card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.ser-container .ser-card .content h2{
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #04174c;
+}
+
+.ser-container .ser-card .content p{
+    font-style: oblique;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
