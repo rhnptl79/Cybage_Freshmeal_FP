@@ -239,4 +239,47 @@ section .con-container .contactform .formBox .inputBox input[type="submit"]:hove
         display: none;
     }
 
-    
+    section.dd .con-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section.dd .con-container .contactform{
+        width: 100%;
+        height: auto;
+    }
+
+    section.dd .con-container .contactinfo{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    section.dd .con-container .contactinfo ul.sci{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:600px)
+{
+    .con-container .contactform{
+        padding: 25px;
+    }
+
+    .con-container .contactinfo{
+        padding: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .con-container .contactinfo ul.sci{
+        margin-top: 40px;
+    }
+
+    .con-container .contactform .formBox .inputBox.w50{
+        width: 100%;
+    }
+}
