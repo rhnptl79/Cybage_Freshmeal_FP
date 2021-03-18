@@ -40,3 +40,41 @@
     border-radius: 50%;
 }
 
+.cook-cards_wrap .cook-card_inner .cook-role_name{
+    color: black;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.cook-cards_wrap .cook-card_inner .cook-real_name{
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 5px 0 10px;
+}
+
+.cook-cards_wrap .cook-card_inner .cook-film{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
