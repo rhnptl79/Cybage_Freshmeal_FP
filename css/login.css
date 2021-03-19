@@ -68,3 +68,75 @@ section.dd .con-container .contactinfo .info li span:nth-child(1){
     min-width: 30px;
 }
 
+section.dd .con-container .contactinfo .info li span:nth-child(1) img{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;
+}
+
+
+section.dd .con-container .contactinfo .info li span:nth-child(2){
+    color: white;
+    margin-left: 10px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+section.dd .con-container .contactinfo .info li:hover span:nth-child(1) img,
+section.dd .con-container .contactinfo .info li:hover span:nth-child(2){
+
+    opacity: 1;
+}
+
+section.dd .con-container .contactinfo .sci{
+    position: relative;
+    display: flex;
+}
+
+section.dd .con-container .contactinfo .sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+section.dd .con-container .contactinfo .sci li a{
+    text-decoration: none;
+}
+
+section.dd .con-container .contactinfo .sci li a img{
+    filter: invert(1);
+    opacity: 0.5;       
+}
+
+section.dd .con-container .contactinfo .sci li:hover a img{
+    opacity: 1;       
+}
+
+section .con-container .contactform{
+    padding: 70px 50px;
+    background: white;
+    width: 50%;
+	margin: 0 auto;
+    height: 100%;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+section .con-container .contactform h2{
+    color: #0f3959;
+    font-size: 24px;
+    font-weight: 500;
+	text-align: center;
+}
+
+section .con-container .contactform .formBox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+section .con-container .contactform .formBox .inputBox{
+    position: relative;
+    margin:  0 0 35px 0;
+}
+
