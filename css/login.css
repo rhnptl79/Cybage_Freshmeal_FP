@@ -140,3 +140,72 @@ section .con-container .contactform .formBox .inputBox{
     margin:  0 0 35px 0;
 }
 
+section .con-container .contactform .formBox .inputBox.w50{
+    width: 47%;
+}
+
+section .con-container .contactform .formBox .inputBox.w100{
+    width: 100%;
+}
+
+section .con-container .contactform .formBox .inputBox input,
+section .con-container .contactform .formBox .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    resize: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #777;
+    outline: none;
+}
+
+section .con-container .contactform .formBox .inputBox textarea{
+    min-height: 120px;
+}
+
+section .con-container .contactform .formBox .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    transition: 0.5s;
+    pointer-events: none; 
+}
+
+section .con-container .contactform .formBox .inputBox input:focus ~ span,
+section .con-container .contactform .formBox .inputBox textarea:focus ~ span,
+section .con-container .contactform .formBox .inputBox input:valid ~ span,
+section .con-container .contactform .formBox .inputBox textarea:valid ~ span
+{
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing:1px ;
+    color: #ff568c;
+}
+
+section .con-container .contactform .formBox .inputBox input[type="submit"]{
+   position: relative;
+   cursor: pointer;
+   background: #0f3959;
+   color: white;
+   max-width: 150px;
+   padding: 12px;
+}
+
+section .con-container .contactform .formBox .inputBox input[type="button"]{
+   position: relative;
+   cursor: pointer;
+   background: #0f3959;
+   color: white;
+   max-width: 150px;
+   padding: 12px;
+}
+
+section .con-container .contactform .formBox .inputBox input[type="submit"]:hover{
+    background: #ff568c;
+}
