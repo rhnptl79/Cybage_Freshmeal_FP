@@ -209,3 +209,96 @@ section .con-container .contactform .formBox .inputBox input[type="button"]{
 section .con-container .contactform .formBox .inputBox input[type="submit"]:hover{
     background: #ff568c;
 }
+
+@media(max-width:1200px)
+{
+    .con-container{
+        width: 90%;
+        min-width: auto;
+        margin: 20px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2) ;
+    }
+
+    .con-container .contactinfo{
+        top: 0;
+        height: 550px;
+        position: relative;
+        box-shadow: none;
+    }
+
+    .con-container .contactform{
+        position: relative;
+        width: calc(100% - 350px);
+        padding-left: 0;
+        margin-left: 0;
+        padding: 40px;
+        height: 550px;
+        box-shadow: none;
+    }
+}
+
+@media(max-width:991px)
+{
+    section.dd{
+         background: fff38e;
+    }
+
+    section.dd::before{
+        display: none;
+    }
+
+    section.dd .con-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section.dd .con-container .contactform{
+        width: 100%;
+        height: auto;
+    }
+
+    section.dd .con-container .contactinfo{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    section.dd .con-container .contactinfo ul.sci{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:768px)
+{
+	section.dd .con-container
+	{
+		min-width: auto;
+		min-height: auto;
+	}
+	section .con-container .contactform
+	{
+		padding: 30px;
+	}
+}
+@media(max-width:600px)
+{
+    .con-container .contactform{
+        padding: 25px;
+    }
+
+    .con-container .contactinfo{
+        padding: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .con-container .contactinfo ul.sci{
+        margin-top: 40px;
+    }
+
+    .con-container .contactform .formBox .inputBox.w50{
+        width: 100%;
+    }
+}
