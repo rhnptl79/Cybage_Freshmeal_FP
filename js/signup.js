@@ -46,11 +46,11 @@ function add() {
 	.add({ id: emailadd, email: emailadd, password: passwordadd});
 	
 	request.onsuccess = function(event) {
-	   alert("Kenny has been added to your database.");
+	   alert("User has been added to your database.");
 	};
 	
 	request.onerror = function(event) {
-	   alert("Unable to add data\r\nKenny is aready exist in your database! ");
+	   alert("Unable to add data\r\nUser is aready exist in your database! ");
 	}
  }
 		 

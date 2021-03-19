@@ -128,3 +128,10 @@
 		width: 100%;
 	}
 }
+@media(max-width:420px)
+{
+	.cook-cards_wrap .cook-card_item
+	{
+		width: 100%;
+	}
+}

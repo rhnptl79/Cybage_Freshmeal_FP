@@ -135,3 +135,17 @@ section.our-products
     line-height: 24px;
     font-weight: 500;
 }
+@media(max-width: 768px)
+{
+	.cook-cards_wrap .cook-card_item
+	{
+		width: 100%;
+	}
+}
+@media(max-width: 420px)
+{
+	.cook-cards_wrap .cook-card_item
+	{
+		width: 100%;
+	}
+}
